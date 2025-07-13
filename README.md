@@ -17,7 +17,6 @@ This project is a Node.js + Express.js backend server that demonstrates advanced
 | 🛑 **Error Handling**            | Custom middleware to handle application-level errors                  |
 | 🔌 **Third-Party API**           | Fetches public API data using `axios`                                 |
 | ✅ **Validation**                | Validates file type (`jpg/png`) and file size (max 2MB) before upload |
-| 🌍 **Static File Hosting**       | Serves HTML frontend using `express.static()`                         |
 | 🧠 **Logger Utility**            | Logs messages with timestamps via `utils/logger.js`                   |
 | 🔐 **Environment Configuration** | Uses `dotenv` to manage API keys and config securely                  |
 
@@ -43,8 +42,6 @@ src
 ├── routes/
 │   ├── uploadRoutes.js          # Upload routes
 │   └── apiRoutes.js             # External API routes
-├── services/
-│   └── apiService.js            # Axios call to external APIs
 ├── utils/
 │   ├── logger.js                # Logging utility
 │   └── validateFile.js          # File type/size validation
