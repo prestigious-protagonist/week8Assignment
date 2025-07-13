@@ -30,7 +30,6 @@ project-root
 src
 │
 ├── index.js                     # Main server entry point
-├── .env                         # Environment variables
 ├── config/
 │   └── cloudinary.js            # Cloudinary configuration
 ├── controllers/
